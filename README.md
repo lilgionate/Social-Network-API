@@ -1,23 +1,22 @@
-# Social-Network-APIGionathan' NoSQL Social Network API
+# Social-Network-API Gionathan' NoSQL Social Network API
 
-License: MIT
+### License: MIT
 
 Description.
-Gionathan' NoSQL Social Network API is a Node.js application programming interface (API) that allows users to perform CRUD operations on social networking data models using a NoSQL database. The data models include friends, users, thoughts, and reaction data models, and they can be retrieved by ID or all of them. This API is built using Node.js and Mongoose, and it provides a simple and scalable way to handle social networking data without the restrictions of traditional relational databases.
+Gionathan's NoSQL Social Network API is a Node.js application programming interface (API) that allows users to perform CRUD operations on social networking data models using a NoSQL database. The data models include friends, users, thoughts, and reaction data models, and they can be retrieved by ID or all of them. This API is built using Node.js and Mongoose, and it provides a simple and scalable way to handle social networking data without the restrictions of traditional relational databases.
 
-Table of Contents:
+## Table of Contents:
 Overview
-The Challenge
-Usage Information
-Installation Process
-Built With
-What I Learned
-Continued Development
-License
-Author
-Acknowledgments
-Overview
-The Challenge:
+- [THE CHALLENGE](#the-challenge)
+- [USAGE INSTRUCTIONS](#usage-instructions)
+- [GITHUB](#github-link-httpsgithubcomlilgionatesocial-network-apigit)
+- [INSALLATION PROCESS](#installation-process)
+- [LICENSE](#license-mit)
+- [AUTHOR](#author)
+
+
+### The Challenge:
+
 The challenge was to build a RESTful API that allows a social media startup to perform CRUD operations on users, thoughts, and reactions data models using a NoSQL database. The API must be built using Node.js and Mongoose and must provide endpoints that can handle large amounts of unstructured data.
 
 API must allow users to:
@@ -47,7 +46,7 @@ Figure 1. GIF.
 The following animation demonstrates the application functionality:
 
 
-Usage Instructions:
+### Usage Instructions:
 Repository: Open documentation run 'npm i' and update '.env'.
 Create a .env file in the root directory of the project and add the following variables:
 Once the server is running, use a tool like Insomnia to test the API endpoints.
@@ -70,9 +69,9 @@ DELETE /api/thought/:thoughtId/reactions/:reactionId - remove a reaction from a 
 POST /api/users/:userId/friends/:friendId - add a friend to a user's friend list
 DELETE /api/users/:userId/friends/:friendId - remove a friend from a user's friend list
 
-GitHub Link: 
+### GitHub Link: https://github.com/lilgionate/Social-Network-API.git
 
-Installation Process:
+### Installation Process:
 Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
 Open the cloned (or downloaded) repository in any source code editor.
 Open the integrated terminal of the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
@@ -104,9 +103,7 @@ Expand API documentation to assist developers with using the API.
 License & Copyright ©
 License: MIT Open Source Initiative Link
 
-Author
+### Author
 Follow me on Github at lilgionate! Additional questions or concerns? feel free to contact me at gioanathanv@gmail.com.
-
-Until next, adios!
 
 © 2023 Gionathan Vargas. Confidential and Proprietary. All Rights Reserved.
