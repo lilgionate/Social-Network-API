@@ -11,6 +11,9 @@ Overview
 - [USAGE INSTRUCTIONS](#usage-instructions)
 - [GITHUB](#github-link-httpsgithubcomlilgionatesocial-network-apigit)
 - [INSALLATION PROCESS](#installation-process)
+- [BUILT WITH](#built-with)
+- [WHAT I LEARNED](#what-i-learned)
+- [CONTINUED DEVELOPMENT](#continued-development)
 - [LICENSE](#license-mit)
 - [AUTHOR](#author)
 
@@ -75,18 +78,31 @@ DELETE /api/users/:userId/friends/:friendId - remove a friend from a user's frie
 Clone the Repository from GitHub (or) Download Zip Folder from Repository from GitHub.
 Open the cloned (or downloaded) repository in any source code editor.
 Open the integrated terminal of the document and complete the respective installation guides provided in "Built With" to ensure the cloned documentation will operate.
-Built With:
+
+### Built With:
+
 JSON: JSON
+
 Dynamic JavaScript
+
 Mongoose: 7.0.3
+
 Express: 4.18.2
+
 Node.js: 16.18.1
+
 Insomnia: by Kong
+
 MongoDB: Website
+
 Nodemon: 2.0.12
+
 License Badge: Shields.io
+
 Visual Studio Code: Website
-What I Learned:
+
+### What I Learned:
+
 Built a RESTful API with Node.js and Mongoose.
 Used NoSQL database to handle unstructured data.
 Created endpoints for CRUD operations on users, thoughts, and reactions data models.
@@ -94,7 +110,9 @@ Implemented endpoints to add and remove friends from a user's friend list.
 Tested API endpoints using Insomnia.
 Worked with HTTP requests and JSON formatted data.
 Utilized environment variables and .env files for sensitive data.
-Continued Development:
+
+### Continued Development:
+
 Implement additional features to enhance the user experience.
 Improve error handling and response messaging for better user feedback.
 Optimize database performance to handle large amounts of data efficiently.
