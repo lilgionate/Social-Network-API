@@ -97,8 +97,6 @@ MongoDB: Website
 
 Nodemon: 2.0.12
 
-License Badge: Shields.io
-
 Visual Studio Code: Website
 
 ### What I Learned:
